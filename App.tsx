@@ -637,9 +637,9 @@ function App() {
           </div>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 h-[calc(100vh-140px)] min-h-[600px]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:h-[calc(100vh-140px)] lg:min-h-[600px]">
           
-          <section className="lg:col-span-4 xl:col-span-3 flex flex-col gap-6 h-full overflow-y-auto custom-scrollbar" aria-label="Input Configuration">
+          <section className="lg:col-span-4 xl:col-span-3 flex flex-col gap-6 lg:h-full lg:overflow-y-auto custom-scrollbar" aria-label="Input Configuration">
             
             <div className="flex flex-col gap-4 flex-shrink-0">
                <div className="bg-[#161b22] p-1 rounded-xl border border-gray-800 shadow-sm relative">
@@ -800,7 +800,7 @@ function App() {
             )}
           </section>
 
-          <section className="lg:col-span-8 xl:col-span-9 h-full flex flex-col min-h-[500px]" aria-label="Output Preview">
+          <section className="lg:col-span-8 xl:col-span-9 lg:h-full flex flex-col min-h-[500px]" aria-label="Output Preview">
             
             {(generatedCode || status === AppStatus.LOADING) && (
               <div className="flex items-center justify-between mb-3 p-2 bg-[#161b22] border border-gray-800 rounded-lg">

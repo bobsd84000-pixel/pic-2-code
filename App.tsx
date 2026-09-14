@@ -626,7 +626,7 @@ function App() {
       />
 
       <main
-        className={`flex-1 max-w-[1600px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 pt-16 transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+        className={`flex-1 max-w-[1600px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         role="main"
       >
         
@@ -637,7 +637,7 @@ function App() {
           </div>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 h-[calc(100vh-200px)] min-h-[600px]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 h-[calc(100vh-140px)] min-h-[600px]">
           
           <section className="lg:col-span-4 xl:col-span-3 flex flex-col gap-6 h-full overflow-y-auto custom-scrollbar" aria-label="Input Configuration">
             
